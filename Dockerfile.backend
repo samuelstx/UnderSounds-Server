@@ -1,0 +1,5 @@
+FROM eclipse-temurin:17-jdk
+COPY backend/undersounds-backend-stable-build.jar /stable-build/undersounds-backend-stable-build.jar
+WORKDIR /stable-build
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "undersounds-backend-stable-build.jar"]
