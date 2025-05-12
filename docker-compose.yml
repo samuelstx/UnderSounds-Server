@@ -9,7 +9,7 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/UnderSounds?allowPublicKeyRetrieval=true&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
       - SPRING_DATASOURCE_USERNAME=admin
       - SPRING_DATASOURCE_PASSWORD=8J]bWFPLG.:Qs2M2
-      - SPRING_REDIS_HOST=redis
+      - SPRING_DATA_REDIS_HOST=redis
       - SPRING_REDIS_PASSWORD=-;((0ZRJ2alE/Q28
       - SPRING_APPLICATION_NAME=UnderSounds-Backend
 
